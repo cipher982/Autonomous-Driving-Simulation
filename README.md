@@ -5,3 +5,6 @@
 ### Using TF/Keras to teach an agent to drive a car using my driving as a training set.
 
 ![Driving Car](https://github.com/cipher982/Autonomous-Driving-Simulation/blob/master/media/car_driving.gif?raw=True)
+
+See Processing,ipynb for image processing and driving data
+See training.ipynb for network code
