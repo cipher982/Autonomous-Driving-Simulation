@@ -23,29 +23,29 @@ David Rose
  * Train and validate the model with a split set of data collected
  * Tune model until car drives around the track on its own, with no mistakes!
 
-**Model Basics and Training Strategy**
+### Model Basics and Training Strategy
 
-1. An appropriate model architecture has been employed
+* #### An appropriate model architecture has been employed
 
 The model includes a ReLu layer to introduce nonlinearity (code line 48), and the data is normalized in the model using a Keras lambda layer (code line 43). In the future, I may use more activations but this sufficiently drives the track as is.
 
-1. Attempts to reduce overfitting in the model
+* #### Attempts to reduce overfitting in the model
 
 The model contains 2 dropout layers to reduce overfitting (model.py lines 50,55).
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting (Validation split on line 63). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track. Good news, it does! (Though it swerves a bit)
 
-1. Model parameter tuning
+* #### Model parameter tuning
 
 The model used an adam optimizer, but I did change the learning rate to 0.0003,
 
-1. Appropriate training data
+* #### Appropriate training data
 
 Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road (extra cameras), and reversed images.
 
- * More details in the next section!
+ *** More details in the next section!
 
-**Solution Design Approach**
+### Solution Design Approach**
 
 I first just added a couple convolutional layers and testing the driving performance, going back and forth with modifying the network and autonomous driving attempts.
 
