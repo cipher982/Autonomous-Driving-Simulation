@@ -5,7 +5,7 @@
 
 ![Driving Car](https://github.com/cipher982/Autonomous-Driving-Simulation/blob/master/media/car_driving.gif?raw=True)
 
-* See Processing,ipynb for image processing and driving data
+* See Processing.ipynb for image processing and driving data
 * See training.ipynb for network code
 
 # Behavioral Cloning
