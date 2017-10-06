@@ -1,6 +1,5 @@
 # Autonomous Driving Simulation
 ### David Rose
-### For Udacity Project 3
 
 ### Using TF/Keras to teach an agent to drive a car using my driving as a training set.
 
@@ -23,29 +22,6 @@ David Rose
  * Build, a convolution neural network in Keras that predicts steering angles from images (each image is frame of video)
  * Train and validate the model with a split set of data collected
  * Tune model until car drives around the track on its own, with no mistakes!
-
-## **Rubric Points**
-
-**Files Submitted &amp; Code Quality**
-
-1. Submission includes all required files and can be used to run the simulator in autonomous mode
-
-My project includes the following files:
-
- * py containing the script to create and train the model
- * py for driving the car in autonomous mode
- * h5 containing a trained convolution neural network
- * writeup\_report.pdf summarizing the results
-
-1. Submission includes functional code Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing:
-
-        python drive.py model.h5
-
-1. Submission code is usable and readable
-
-The model.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
-
-
 
 **Model Basics and Training Strategy**
 
